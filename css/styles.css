@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(255, 225, 0);
+}
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Bob{
+    height: 650px;
+    background-color: rgba(246, 159, 93, 0.987);
+    background-image: url(../images/Bob.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+}
+.Patricio{
+    height: 650px;
+    background-color: rgb(133, 85, 254);
+    background-image:url(../images/Patricio.webp);
+    background-repeat: no-repeat;
+    background-size: 420px;
+    background-position: center;
+    padding: 50px;
+}
+h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
